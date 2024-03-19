@@ -1,7 +1,5 @@
 # Kiezblock Website ToDos
-- Bilder auf Hauptseite
-- Footer anpassen
-- Header anpassen
+- Icon anpassen
 - Kontaktseite / mailto:mariendorf@kiezblocks.de
 - Impressum
   - ist das wirklich Pflicht in DE?

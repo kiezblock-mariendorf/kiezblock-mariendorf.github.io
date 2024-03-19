@@ -23,8 +23,8 @@ const config : Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'kiezblock_mariendorf', // Usually your repo name.
+  organizationName: 'kiezblock-mariendorf', // Usually your GitHub org/user name.
+  projectName: 'kiezblock-mariendorf.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -79,13 +79,12 @@ const config : Config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Visionen',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
           },
         ],
       },
@@ -93,11 +92,15 @@ const config : Config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Infos',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Visionen',
+                to: '/docs/vorstellung',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -105,29 +108,29 @@ const config : Config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/DCBzXGPuPB',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Kiezblocks.de',
+                href: 'https://www.kiezblocks.de/mariendorfer/'
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/kiezblock-mariendorf',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Kontakt',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Mail',
+                href: 'mailto:mariendorf@kiezblocks.de'
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Impressum',
+                href: '/impressum',
               },
             ],
           },
