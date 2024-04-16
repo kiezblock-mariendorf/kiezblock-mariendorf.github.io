@@ -8,6 +8,7 @@
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import {themes as prismThemes} from 'prism-react-renderer';
+import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config : Config = {
@@ -20,6 +21,13 @@ const config : Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  customFields: {
+    impressumAuthor: process.env.IMPRESSUM_AUTHOR,
+    impressumStreet: process.env.IMPRESSUM_STREET,
+    impressumZip: process.env.IMPRESSUM_ZIP,
+    impressumCity: process.env.IMPRESSUM_CITY,
+    impressumTel: process.env.IMPRESSUM_TEL,
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
