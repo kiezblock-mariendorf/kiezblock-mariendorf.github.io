@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Was wir vorhaben
+# Vorstellung
 
 Willkommen in unserem Kiez, wo wir bestrebt sind, die Lebensqualität und Sicherheit für alle Bewohner\*innen zu verbessern, denn er ist ein lebendiges Zuhause für viele Familien und Senior\*innen.
 
