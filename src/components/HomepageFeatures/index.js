@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Das Lächeln des Kiez',
+    title: 'Lebenswert',
     path: require('@site/static/img/machon_fassade.jpg').default,
     description: (
       <>
-        Es ist unverkennbar und doch
+        Wir wollen den Kiez für die Menschen zurückgewinnen. So dass der Mensch wieder im Vordergrund steht.
       </>
     ),
   },
   {
-    title: 'Allzu oft verstellt',
+    title: 'Ruhig',
     path: require('@site/static/img/machon_eck.jpg').default,
     description: (
       <>
-        Auf den Straßen dominiert der Durchgangsverkehr. 
+        Dazu wollen wir den Durchgangsverkehr aus dem Kiez heraushalten.  
       </>
     ),
   },
   {
-    title: 'bis uns selbst kaum Platz bleibt',
+    title: 'Sicher',
     path: require('@site/static/img/rathaus_gehweg.jpg').default,
     description: (
       <>
-        Deshalb setzen wir uns für sichere Fuß- & Radwege im Kiez ein. So dass der Mensch wieder im Vordergrund steht.
+        Außerdem fordern wir sichere Fuß- & Radwege im Kiez. 
       </>
     ),
   },
