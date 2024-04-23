@@ -121,7 +121,7 @@ const config : Config = {
               },
               {
                 label: 'Kiezblocks.de',
-                href: 'https://www.kiezblocks.de/mariendorfer/'
+                href: 'https://www.kiezblocks.de/mariendorf/'
               },
               {
                 label: 'GitHub',
