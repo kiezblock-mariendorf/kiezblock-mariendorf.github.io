@@ -120,6 +120,10 @@ const config : Config = {
                 href: 'https://discord.gg/DCBzXGPuPB',
               },
               {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/kiezblock_mariendorf/',
+              },
+              {
                 label: 'Kiezblocks.de',
                 href: 'https://www.kiezblocks.de/mariendorf/'
               },
