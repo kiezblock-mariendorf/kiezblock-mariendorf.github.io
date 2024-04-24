@@ -7,6 +7,11 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+// Description used for meta tag
+// Important for representation in Search Engines.
+// Shown in the description of search result. 
+let description = "Willkommen in unserem lebendigen Kiez in Berlin Tempelhof-Mariendorf! Wir sind bestrebt, die Lebensqualität und Sicherheit für alle Bewohner*innen zu verbessern und den Durchgangsverkehr zu entschärfen. Erfahren Sie, wie wir gefährliche Verkehrssituationen in Straßen wie der Rathausstraße, Kurfürstenstraße und Prüßstraße entspannen und einen sicheren Raum schaffen, in dem Familien, Kinder und Senior*innen frei und unbeschwert leben können. Gemeinsam machen wir Mariendorf zu einem noch lebenswerteren Zuhause für alle.";
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -33,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Webseite des Mariendorfer Kiezblocks">
+      description={description}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
