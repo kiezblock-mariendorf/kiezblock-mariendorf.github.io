@@ -14,7 +14,7 @@ import 'dotenv/config';
 const config : Config = {
   title: 'Kiezblock Mariendorf',
   tagline: 'Für einen lebenswerten Kiez',
-  favicon: 'img/logo.ico',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://kiez-mariendorf.de',
@@ -75,12 +75,12 @@ const config : Config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/kiezblock_md_socialcard.jpg',
       navbar: {
         title: 'Kiezblock Mariendorf',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Kiezblock Mariendorf Logo',
+          src: 'img/mariendorf_kb_logo.svg',
         },
         items: [
           {
