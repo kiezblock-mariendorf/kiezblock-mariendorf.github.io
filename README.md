@@ -1,41 +1,7 @@
-# Website
+# Kiezblock Mariendorf - Webseite
+Dies ist das Repo zur [Webseite](https://kiezblock-mariendorf.de/) des Kiezblock Mariendorf. Unsere Webseite ist mit dem [Docusaurus](https://docusaurus.io/) Framework aufgebaut. 
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Weiterverwendung
+Hinweise dazu, wie eine eigene Webseite mit der Vorlage gebaut werden kann findet Ihr in der [Dev-Doku](dev-docu). 
 
-### Installation
-
-```
-$ npm install
-```
-
-### Local Development
-
-```
-$ npm start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ npm build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Die Webseite kann schnell angepasst werden. Wir möchten insbesondere andere Kiezblocks dazu einladen ihre eigene Webseite mit dieser Vorlage aufzubauen! Große Vorkenntnisse im programmieren sind dazu nicht nötig. Falls ihr fragen habt, helfen wir auch gerne weiter.
