@@ -7,10 +7,18 @@ dotenv.config({ path: "./.env" });
 async function main() {
   try {
         const buildPath = path.join(process.cwd(), "build");
-        console.log(`build directory: ${buildPath}`);
-        console.log("Env FTP_HOST: ", process.env.FTP_HOST);
+        const ftpDeploy = new FtpDeploy()
+                .on("uploaded", (data) => {
+                  console.log(`Uploaded ${data.filename}`);
+                })
+                .on("upload-error", (data) => {
+                  console.error(`Error uploading ${data.filename}: ${data.error}`);
+                })
+                .on("log", (data) => {
+                  console.log(data);
+                });
 
-        await new FtpDeploy().deploy({
+        await ftpDeploy.deploy({
             user: process.env.FTP_USER, // Your credentials
             password: process.env.FTP_PASS, // Your credentials
             host: process.env.FTP_HOST, // Your credentials
@@ -29,7 +37,8 @@ async function main() {
               "rejectUnauthorized": false
             },
         })
-
+        
+        
         console.log("Succesfully deployed site")
         return 0;
     } catch (e) {
