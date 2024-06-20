@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, Marker } from "pigeon-maps";
+import { Map, Marker, ZoomControl } from "pigeon-maps";
 
 interface LocationMapProps {
   marker: [number, number];
@@ -18,8 +18,9 @@ interface LocationMapProps {
  */
 export default function LocationMap({ marker, height = 300, zoom = 16 }: LocationMapProps) {
   return (
-    <Map height={height} defaultCenter={marker} defaultZoom={zoom}>
+    <Map height={height} defaultCenter={marker} defaultZoom={zoom} zoomSnap={false} >
       <Marker width={40} anchor={marker} />
+      <ZoomControl />
     </Map>
   );
 }
