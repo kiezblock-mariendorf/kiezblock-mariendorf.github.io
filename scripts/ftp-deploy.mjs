@@ -31,11 +31,12 @@ async function main() {
             exclude: [], // Exclude no files
 
             deleteRemote: false, // Set to true if you want to delete ALL FILES in the remote root before uploading
-            forcePasv: true, // Use passive mode
+            forcePasv: false, // Use passive mode
             secure: true,
             secureOptions: {
               "rejectUnauthorized": false
             },
+            debug: console.log,
         })
         
         
