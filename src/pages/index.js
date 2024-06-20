@@ -28,6 +28,14 @@ function HomepageHeader() {
             Was meinen wir damit?
           </Link>
         </div>
+
+        <div className={styles.buttons} style={{ marginTop: '1rem' }}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            Was gibt es neues?
+          </Link>
+        </div>
       </div>
     </header>
   );
